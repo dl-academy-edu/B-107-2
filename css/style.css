@@ -1,0 +1,24 @@
+* {
+}
+
+.button {
+    background: green;
+}
+
+#menu {
+    background: #000;
+}
+
+.services__title,
+.about__title {
+    background: #7D97DA20;
+    font-size: 30px;
+}
+
+.header .button {
+    background: blue;
+}
+
+.header > img {
+    background:green;
+}
