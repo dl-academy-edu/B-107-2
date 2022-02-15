@@ -1,24 +1,25 @@
-* {
+.banner {
+    /* background: url('../images/fon.jpg') no-repeat center #E0E7ED; */
+    background-color: #E0E7ED;
+    background-image: url('../images/fon.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 143px;
+    padding-bottom: 286px;
 }
 
-.button {
-    background: green;
+.baner__title {
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 100%;
+    color: #00559D;
+    margin: 0;
+    margin-bottom: 49px;
+    max-width: 80%;
 }
 
-#menu {
-    background: #000;
-}
-
-.services__title,
-.about__title {
-    background: #7D97DA20;
-    font-size: 30px;
-}
-
-.header .button {
-    background: blue;
-}
-
-.header > img {
-    background:green;
+.banner .button {
+    font-size: 24px;
+    line-height: 29px;
+    max-width: 360px;
 }

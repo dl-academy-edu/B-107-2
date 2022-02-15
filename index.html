@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <header class="header">
+<body class="main">
+    <header class="header container">
         <img src="images/logo.png" alt="">
         <input type="text">
         <nav>
             <ul class="header__nav" id="menu">
                 <li>
-                    <a href="#" class="header__link">Catalog</a>
+                    <a href="catalog.html" class="header__link">Catalog</a>
                 </li>
                 <li>
                     <a href="#" class="header__link">Servises</a>
@@ -32,10 +37,12 @@
     </header>
     <main>
         <section class="banner">
-            <h1 class="baner__title">The world’s leading cleaning company</h1>
-            <button class="button button_secondary">Get a Free Estimate</button>
+            <div class="container">
+                <h1 class="baner__title">The world’s leading cleaning company</h1>
+                <button class="button button_secondary ">Get a Free Estimate</button>
+            </div>
         </section>
-        <section class="services">
+        <section class="services container">
             <h2 class="services__title">OUR MOST POPULAR SERVICES</h2>
             <ul class="services__list">
                 <li class="services__item">
@@ -66,7 +73,7 @@
                 </li>
             </ul>
         </section>
-        <section class="about">
+        <section class="about container">
             <div class="about__wrapper">
                 <h2 class="about__title">Why Haley’s Chem-Dry?</h2>
                 <p>Chem-Dry’s mission is helping people live healthy lives, which starts with clean carpets and a healthy home. Our proprietary hot carbonating extraction cleaning process penetrates deep into the fibers, removing an average of 98% of common household allergens from carpets, upholstery and rugs and 89% of the airborne bacteria in your home when a sanitizer is added.* Plus, our green-certified solution, The Natural®, contains no soaps or detergents so it’s safe and non-toxic for your family and pets.</p>
@@ -74,7 +81,7 @@
             </div>
             <img src="#" alt="">
         </section>
-        <section class="awards">
+        <section class="awards container">
             <h2 class="hidden">Awards</h2>
             <ul class="awards__list">
                 <li>
@@ -101,12 +108,13 @@
             </ul>
         </section>
     </main>
-    <article>
+    <article class="container">
         <h3>Chem-Dry</h3>
         <p>9420 Cedar CT, Thornton, CO 80229</p>
         <a href="tel:7206059399">(720) 605-9399</a>
+        <a href="#" class="button button_secondary">Learn More</a>
     </article>
-    <footer class="footer">
+    <footer class="footer container">
         <p class="footer__text">Subscribe to our social networks</p>
         <ul class="social">
             <li class="social_item">
