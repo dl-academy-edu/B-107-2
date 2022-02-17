@@ -13,10 +13,9 @@
 </head>
 <body class="main">
     <header class="header container">
-        <img src="images/logo.png" alt="">
-        <input type="text">
+        <img src="images/logo.png" alt="" class="logo">
         <nav>
-            <ul class="header__nav" id="menu">
+            <ul class="header__nav undotted" id="menu">
                 <li>
                     <a href="catalog.html" class="header__link">Catalog</a>
                 </li>
@@ -28,12 +27,12 @@
                 </li>
                 <li>
                     <a href="#" class="header__link">About us</a>
-                    <img src="images/logo.png" alt="">
                 </li>
             </ul>
         </nav>
         <a href="tel:7194319698" class="header__phone">719-431-9698</a>
         <a href="#" class="button">Contact  Us</a>
+        
     </header>
     <main>
         <section class="banner">
@@ -44,7 +43,7 @@
         </section>
         <section class="services container">
             <h2 class="services__title">OUR MOST POPULAR SERVICES</h2>
-            <ul class="services__list">
+            <ul class="services__list undotted">
                 <li class="services__item">
                     <a href="#">
                         <img src="images/service1.jpg" alt="">
@@ -53,21 +52,27 @@
                     <p>When you choose Chem-Dry, you get deeper clean, faster-drying carpet and healthier home for you.</p>
                     <a href="#" class="button">Learn More</a>
                 </li>
-                <li>
-                    <img src="images/service2.jpg" alt="">
-                    <h3>Carpet Cleaning</h3>
+                <li class="services__item">
+                    <a href="#">
+                        <img src="images/service1.jpg" alt="">
+                        <h3 class="services__heading">Carpet Cleaning</h3>
+                    </a>
                     <p>When you choose Chem-Dry, you get deeper clean, faster-drying carpet and healthier home for you.</p>
                     <a href="#" class="button">Learn More</a>
                 </li>
-                <li>
-                    <img src="images/service3.jpg" alt="">
-                    <h3>Carpet Cleaning</h3>
+                <li class="services__item">
+                    <a href="#">
+                        <img src="images/service1.jpg" alt="">
+                        <h3 class="services__heading">Carpet Cleaning</h3>
+                    </a>
                     <p>When you choose Chem-Dry, you get deeper clean, faster-drying carpet and healthier home for you.</p>
                     <a href="#" class="button">Learn More</a>
                 </li>
-                <li>
-                    <img src="images/service4.jpg" alt="">
-                    <h3>Carpet Cleaning</h3>
+                <li class="services__item">
+                    <a href="#">
+                        <img src="images/service1.jpg" alt="">
+                        <h3 class="services__heading">Carpet Cleaning</h3>
+                    </a>
                     <p>When you choose Chem-Dry, you get deeper clean, faster-drying carpet and healthier home for you.</p>
                     <a href="#" class="button">Learn More</a>
                 </li>
@@ -79,11 +84,11 @@
                 <p>Chem-Dry’s mission is helping people live healthy lives, which starts with clean carpets and a healthy home. Our proprietary hot carbonating extraction cleaning process penetrates deep into the fibers, removing an average of 98% of common household allergens from carpets, upholstery and rugs and 89% of the airborne bacteria in your home when a sanitizer is added.* Plus, our green-certified solution, The Natural®, contains no soaps or detergents so it’s safe and non-toxic for your family and pets.</p>
                 <a href="#" class="button">Learn More</a>
             </div>
-            <img src="#" alt="">
+            <img src="images/about.jpg" alt="">
         </section>
         <section class="awards container">
             <h2 class="hidden">Awards</h2>
-            <ul class="awards__list">
+            <ul class="awards__list undotted">
                 <li>
                     <img src="images/brands/brand1.png" alt="">
                 </li>
@@ -108,41 +113,71 @@
             </ul>
         </section>
     </main>
-    <article class="container">
-        <h3>Chem-Dry</h3>
-        <p>9420 Cedar CT, Thornton, CO 80229</p>
-        <a href="tel:7206059399">(720) 605-9399</a>
-        <a href="#" class="button button_secondary">Learn More</a>
+    <article class="map">
+        <div class="container">
+            <div class="map__wrapper">
+                <h3 class="map__title">Chem-Dry</h3>
+                <p>9420 Cedar CT, Thornton, CO 80229</p>
+                <a href="tel:7206059399" class="map__phone">(720) 605-9399</a>
+                <a href="#" class="button button_secondary">Learn More</a>
+            </div>
+        </div>
+        
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad35ae196e982492251630182d1a01c9e7a4c946a117a16241fc37f38c40f9787&amp;source=constructor" width="100%" height="327" frameborder="0"></iframe>
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5296.97646718478!2d35.070229803428504!3d48.40877037265227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbfc84b88acf2d%3A0xe946a3ea61720a78!2z0L_RgNC-0YHQvy4g0JPQtdGA0L7QtdCyLCA0MCwg0JTQvdC40L_RgNC-LCDQlNC90LXQv9GA0L7Qv9C10YLRgNC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwg0KPQutGA0LDQuNC90LAsIDQ5MDAw!5e0!3m2!1sru!2sru!4v1645115815256!5m2!1sru!2sru" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
     </article>
-    <footer class="footer container">
-        <p class="footer__text">Subscribe to our social networks</p>
-        <ul class="social">
-            <li class="social_item">
-                <a href="#">
-                    <img src="#" alt="">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="#" alt="">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="#" alt="">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="#" alt="">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="#" alt="">
-                </a>
-            </li>
-        </ul>
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">Subscribe to our social networks</p>
+            <ul class="social undotted">
+                <li class="social_item">
+                    <a href="#">
+                        <img src="images/Vector.svg" alt="">
+                    </a>
+                </li>
+                <li class="social_item">
+                    <a href="#">
+                        <svg width="60" height="58" viewBox="0 0 60 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M27.7031 33.2533V23.9733L36.7149 28.6133L27.7031 33.2533ZM47.4899 22.4267C47.4899 22.4267 47.0981 20.1067 46.1186 19.14C44.9431 17.7867 43.3759 17.7867 42.7881 17.7867C38.0863 17.4 31.2295 17.4 31.2295 17.4C31.2295 17.4 24.1768 17.4 19.6709 17.7867C19.0831 17.7867 17.5159 17.7867 16.3404 19.14C15.3609 20.1067 14.969 22.4267 14.969 22.4267C14.969 22.4267 14.5772 25.1333 14.5772 27.6467V30.16C14.5772 32.8667 14.969 35.5733 14.969 35.5733C14.969 35.5733 15.3609 37.8933 16.3404 38.86C17.5159 40.2133 19.279 40.2133 20.0627 40.2133C22.8054 40.4067 31.4254 40.6 31.4254 40.6C31.4254 40.6 38.4781 40.6 42.984 40.2133C43.5718 40.2133 45.139 40.2133 46.3145 38.86C47.294 37.8933 47.6859 35.5733 47.6859 35.5733C47.6859 35.5733 48.0777 32.8667 48.0777 30.16V27.6467C47.6859 25.1333 47.4899 22.4267 47.4899 22.4267ZM0.863586 29C0.863586 12.9533 13.9895 0 30.2499 0C46.5104 0 59.6363 12.9533 59.6363 29C59.6363 45.0467 46.5104 58 30.2499 58C13.9895 58 0.863586 45.0467 0.863586 29Z" fill="white"/>
+                        </svg>                        
+                    </a>
+                </li>
+                <li class="social_item">
+                    <a href="vk.com">
+                        <svg width="60" height="58" viewBox="0 0 60 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M37.2118 20.1067V15.2733H32.7059C28.9836 15.2733 26.4368 18.3667 26.4368 22.2333V24.94H21.735V29.3867H26.4368V42.92H31.7263V29.3867H37.2118V24.94H31.7263V21.8467C31.7263 20.88 32.3141 20.3 32.9018 20.3H37.2118V20.1067ZM30.1591 0C46.4195 0 59.5454 12.9533 59.5454 29C59.5454 45.0467 46.4195 58 30.1591 58C13.8986 58 0.772705 45.0467 0.772705 29C0.772705 12.9533 13.8986 0 30.1591 0Z" fill="white"/>
+                        </svg>                            
+                    </a>
+                </li>
+                <li class="social_item">
+                    <a href="#">
+                        <svg width="60" height="58" viewBox="0 0 60 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M37.2118 20.1067V15.2733H32.7059C28.9836 15.2733 26.4368 18.3667 26.4368 22.2333V24.94H21.735V29.3867H26.4368V42.92H31.7263V29.3867H37.2118V24.94H31.7263V21.8467C31.7263 20.88 32.3141 20.3 32.9018 20.3H37.2118V20.1067ZM30.1591 0C46.4195 0 59.5454 12.9533 59.5454 29C59.5454 45.0467 46.4195 58 30.1591 58C13.8986 58 0.772705 45.0467 0.772705 29C0.772705 12.9533 13.8986 0 30.1591 0Z" fill="white"/>
+                            </svg>
+                            
+                    </a>
+                </li>
+                <li class="social_item">
+                    <a href="#">
+                        <svg width="60" height="58" viewBox="0 0 60 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M37.2118 20.1067V15.2733H32.7059C28.9836 15.2733 26.4368 18.3667 26.4368 22.2333V24.94H21.735V29.3867H26.4368V42.92H31.7263V29.3867H37.2118V24.94H31.7263V21.8467C31.7263 20.88 32.3141 20.3 32.9018 20.3H37.2118V20.1067ZM30.1591 0C46.4195 0 59.5454 12.9533 59.5454 29C59.5454 45.0467 46.4195 58 30.1591 58C13.8986 58 0.772705 45.0467 0.772705 29C0.772705 12.9533 13.8986 0 30.1591 0Z" fill="white"/>
+                            </svg>
+                            
+                    </a>
+                </li>
+                <li class="social_item">
+                    <a href="#">
+                        <svg width="59" height="58" viewBox="0 0 59 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.094 13.5333C17.1349 13.5333 15.7635 14.6933 15.7635 16.4333C15.7635 18.1733 17.1349 19.3333 19.094 19.3333C21.249 19.3333 22.4245 18.1733 22.4245 16.4333C22.2285 14.6933 21.0531 13.5333 19.094 13.5333ZM16.3513 40.6H21.6408V21.8467H16.3513V40.6ZM36.7258 21.2667C33.5913 21.2667 31.4363 22.8133 30.6526 23.9733L30.2608 22.04H25.559V40.7933H30.8485V29.58C30.8485 29 30.8485 28.42 31.0445 28.2267C31.4363 27.26 32.8076 26.1 34.3749 26.1C36.5299 26.1 37.9013 27.6467 37.9013 30.16V40.9867H43.1908V29.3867C43.1908 23.5867 40.4481 21.2667 36.7258 21.2667ZM0.0908203 29C0.0908203 12.9533 13.2167 0 29.4772 0C45.7376 0 58.8635 12.9533 58.8635 29C58.8635 45.0467 45.7376 58 29.4772 58C13.2167 58 0.0908203 45.0467 0.0908203 29Z" fill="white"/>
+                            </svg>
+                            
+                            
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    
     </footer>
 </body>
 </html>
