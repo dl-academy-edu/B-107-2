@@ -38,6 +38,14 @@ a {
     width: 100%;
 }
 
+.button:hover {
+    background: #26CD8B;
+}
+
+.button:active {
+    background: #005232;
+}
+
 .button_secondary {
     background: #95459A;
 }
@@ -124,4 +132,138 @@ a {
 
 .social_item {
     margin-left: 20px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+input,
+textarea {
+    border: 2px solid #777;
+    background: transparent;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 13px 20px;
+    resize: none;
+    width: 100%;
+    outline: none;
+    color: #005232;
+}
+input:focus,
+textarea:focus {
+    border-color: #FFB612;
+}
+
+/* input::placeholder,
+textarea::placeholder {
+    color: red;
+    opacity: .4;
+} */
+/* 
+input:focus + label,
+textarea:focus + label {
+    color: #FFB612;
+} */
+
+label {
+    font-size: 18px;
+    line-height: 22px;
+    color: #6B6A6A;
+    margin-bottom: 6px;
+}
+
+.field_2-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.field_2-column .label-wrapper input {
+    max-width: 280px;
+}
+
+.field_2-column .label-wrapper:last-child {
+    margin-bottom: 0;
+}
+
+.label-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-wrapper span {
+    margin-bottom: 6px;
+}
+
+.label-wrapper:focus-within label,
+.label-wrapper:focus-within span {
+    color: #FFB612;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    display: none;
+}
+
+.checkbox__list,
+.radio__list {
+    display: flex;
+    margin: 20px 0;
+}
+
+.checkbox-label,
+.radio-label {
+    padding-left: 35px;
+    margin-right: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.checkbox-label:before,
+.checkbox-label:after,
+.radio-label:before,
+.radio-label:after {
+    content: '';
+    display: block;
+    position: absolute;
+}
+
+.checkbox-label:before,
+.radio-label:before {
+    top: -1px;
+    left: 0;
+    width: 21px;
+    height: 21px;
+    border: 2px solid #777;
+    background: transparent;
+}
+
+.radio-label:before {
+    border-radius: 50%;
+}
+
+.checkbox-label:after,
+.radio-label:after {
+    width: 13px;
+    height: 13px;
+    top: 5px;
+    left: 6px;
+    background: #95459A;
+    opacity: 0;
+}
+
+.radio-label:after {
+    border-radius: 50%;
+}
+
+.checkbox-input:checked + .checkbox-label::after,
+.radio-input:checked + .radio-label::after {
+    opacity: 1;
+}
+
+.checkbox-input:disabled + .checkbox-label,
+.radio-input:disabled + .radio-label {
+    opacity: .5;
 }

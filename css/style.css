@@ -52,6 +52,10 @@
     margin: 10px;
 }
 
+.services__item:first-child {
+    background: #000;
+}
+
 .services__heading {
     font-weight: bold;
     font-size: 30px;
