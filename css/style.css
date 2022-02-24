@@ -72,6 +72,20 @@
     align-items: flex-start;
     justify-content: space-between;
     margin-bottom: 80px;
+    position: relative;
+}
+
+.about:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: -50px;
+    width: 300px;
+    height: 300px;
+    background: #008752;
+    width: 570px;
+    height: 500px;
 }
 
 .about__wrapper {
@@ -85,6 +99,12 @@
     color: #005DAB;
     margin: 0 0 46px;
 }
+
+.about__img {
+    z-index: 1;
+}
+
+
 
 /* AWARDS */
 

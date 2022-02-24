@@ -267,3 +267,28 @@ input[type="radio"] {
 .radio-input:disabled + .radio-label {
     opacity: .5;
 }
+
+.modal {
+    background: rgba(149, 69, 154, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modal__form {
+    width: 680px;
+    left: 360px;
+    top: 167px;
+    background: #EEEEEE;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%);
+}

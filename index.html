@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -35,6 +36,10 @@
         
     </header>
     <main>
+
+        <audio src="https://archive.org/download/BrightSkyAndClouds/SkyAndCloudsWebm.webm" width="500" controls>
+
+        </audio>
         <section class="banner">
             <div class="container">
                 <h1 class="baner__title">The world’s leading cleaning company</h1>
@@ -84,7 +89,7 @@
                 <p>Chem-Dry’s mission is helping people live healthy lives, which starts with clean carpets and a healthy home. Our proprietary hot carbonating extraction cleaning process penetrates deep into the fibers, removing an average of 98% of common household allergens from carpets, upholstery and rugs and 89% of the airborne bacteria in your home when a sanitizer is added.* Plus, our green-certified solution, The Natural®, contains no soaps or detergents so it’s safe and non-toxic for your family and pets.</p>
                 <a href="#" class="button">Learn More</a>
             </div>
-            <img src="images/about.jpg" alt="">
+            <img src="images/about.jpg" alt="" class="about__img">
         </section>
         <section class="awards container">
             <h2 class="hidden">Awards</h2>
@@ -180,32 +185,34 @@
     
     </footer>
 
+    <div class="modal">
 
-    <form action="#" class="contact__form">
+        <form action="#" class="modal__form">
 
-        <div class="field_2-column">
-            <div class="label-wrapper">
-                <label for="input-name">Name</label>
-                <input type="text" id="input-name" placeholder="Ivan Ivanov">
+            <div class="field_2-column">
+                <div class="label-wrapper">
+                    <label for="input-name">Name</label>
+                    <input type="text" id="input-name" placeholder="Ivan Ivanov">
+                </div>
+
+                <label class="label-wrapper">
+                    <span>Phone</span>
+                    <input type="text">
+                </label>
             </div>
 
-            <label class="label-wrapper">
-                <span>Phone</span>
-                <input type="text">
-            </label>
-        </div>
+            <div class="label-wrapper">
+                <label for="input-email">Email</label>
+                <input type="email" id="input-email" required>
+                
+            </div>
 
-        <div class="label-wrapper">
-            <label for="input-email">Email</label>
-            <input type="email" id="input-email" required>
-            
-        </div>
+            <textarea name="" id="" cols="10" rows="5">Message</textarea>
 
-        <textarea name="" id="" cols="10" rows="5">Message</textarea>
-
-        <button type="submit">
-            Submit
-        </button>
-    </form>
+            <button type="submit">
+                Submit
+            </button>
+        </form>
+    </div>
 </body>
 </html>
