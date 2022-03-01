@@ -104,6 +104,8 @@ a {
     position: absolute;
     top: 20px;
     left: 20px;
+    padding: 30px;
+    color: #fff;
 }
 
 .footer {
@@ -180,6 +182,10 @@ label {
     justify-content: space-between;
 }
 
+.field_2-column .label-wrapper {
+    width: 100%;
+}
+
 .field_2-column .label-wrapper input {
     max-width: 280px;
 }
@@ -191,6 +197,7 @@ label {
 .label-wrapper {
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .label-wrapper span {
@@ -290,5 +297,5 @@ input[type="radio"] {
     /* position: absolute; */
     /* top: 50%; */
     /* left: 50%; */
-    /* transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
 }
